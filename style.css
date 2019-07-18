@@ -1,0 +1,24 @@
+.slider{
+    margin: 60px auto;
+    max-width: 800px;
+    text-align: center;
+    position: relative;
+}
+i{
+    position: absolute;
+    top: 40%;
+    cursor: pointer;
+    font-size: 100px;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.459);
+}
+i:first-child{
+    left: 5px;
+}
+i:last-child{
+    right: 5px;
+}
+img{
+    width: 800px;
+    height: 600px;
+}
